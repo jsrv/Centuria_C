@@ -12,6 +12,7 @@ test = pd.read_csv('test.csv')
 predictors = train.columns.tolist()[1:-1]
 categorical = [c for c in predictors if c[:3]=='cat']
 train2 = pd.get_dummies(train[predictors],columns=categorical)
+test2 = pd.get_dummies(test[test.columns.tolist()[1:]],columns=categorical)
 
 # find missing columns
 train_cols = train2.columns.tolist()
