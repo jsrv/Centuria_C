@@ -24,3 +24,5 @@ http://scikit-learn.org/stable/modules/neural_networks_supervised.html
 
 https://www.kaggle.com/c/titanic/details/getting-started-with-random-forests                                #Random Forests
 http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+
+https://www.kaggle.com/dmi3kno/allstate-claims-severity/allstate-fingerprints-eda/comments                  #What is the data
